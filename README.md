@@ -13,6 +13,8 @@ After setting up the spark session, I created four different tables to match the
 Once the data was structured to match the schema file, I set up a connection to Postgres and then the separate connections to each of the four databases. Once the connection was set up, I ran the schema file in Postgres to ensure that everything was successful.
 
 <h2>Notebook 2: Ebooks</h2>
-As mentioned, I  
+As mentioned, I wanted to compare Ebooks to real books. The Ebooks had a lot more data and purchases than the books. This makes sense because Amazon offers a lot of Ebooks, but they also offer services to publish your own books, so some books are only available for purchase as an Ebook instead of a normal one.
+
+I did much the same as I did for the first notebook. I didn't run into the same issues because I'd already problem-solved. I did notice that doing this the second time around it was a lot more easy and I felt more comfortable. I changed the data structures, the names of the columns, and dropped duplicates and NA columns to ensure the data was clean. There wasn't much that I did differently, although, this data set was bigger than the previous one. I found it easier to work with. 
 
 <strong>Tools Used: Google Colab, PySpark, AWS, Postgres, SQL, ETL</strong> 
